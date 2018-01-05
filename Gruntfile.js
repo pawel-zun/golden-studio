@@ -8,14 +8,14 @@ module.exports = function(grunt) {
   		},
   		dist: {
   			files: {
-  				'styles/style.css': 'styles/style.scss'
+  				'style.css': 'sass/style.scss'
   			}
   		}
   	},
 	
 	watch: {
 		scripts: {
-			files: ['styles/*.scss'],
+			files: ['sass/**/*.scss'],
 			tasks: ['sass'],
 			options: {
 				spawn: false,
