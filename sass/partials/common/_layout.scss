@@ -1,0 +1,50 @@
+body {
+	background-color: $bg-color-white;
+}
+
+section {
+	width: 100%;
+	padding: 120px 0;
+	header {
+		text-align: center;
+		margin-bottom: 80px;
+		h2 {
+		  font-size: 40px;
+		  font-family: $text-font-headline;
+		  color: $text-color-dark;
+		  font-weight: 700;
+		  text-transform: uppercase;
+		  margin-bottom: 10px;
+		}
+		p {
+			font-family: $text-font-italics;
+			font-weight: 400;
+			font-style: italic;
+		  font-size: 16px;
+		  color: $text-color-light;
+		}
+	}
+	.row {
+		h3 {
+			font-family: $text-font-headline;
+			font-size: 18px;
+			font-weight: 700;
+			text-align: center;
+		  color: $text-color-dark;
+			line-height: 1.2;
+			margin-bottom: 15px;
+			text-transform: capitalize;
+			& .uppercase {
+				text-transform: uppercase;
+			}
+		}
+		p {
+			font-family: $text-font-regular;
+			color: $text-color-light;
+			font-size: 14px;
+			font-weight: 400;
+			text-align: center;
+			line-height: 1.2;
+		}
+	}
+}

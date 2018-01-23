@@ -2,16 +2,23 @@
 
 @import 'modules/variables';
 
-// RESET CSS
+// COMMON STYLES
 
-@import 'partials/reset';
+@import 'partials/common/reset';
+@import 'partials/common/grid';
+@import 'partials/common/layout';
+@import 'partials/common/buttons';
+@import 'partials/common/fa';
+@import 'partials/common/hover';
 
-// LAYOUT
+// SECTIONS
 
-@import 'partials/grid';
-@import 'partials/layout';
-@import 'partials/buttons';
+@import 'partials/sections/masthead';
+@import 'partials/sections/services';
+@import 'partials/sections/portfolio';
+@import 'partials/sections/about';
+@import 'partials/sections/team';
+@import 'partials/sections/logos';
+@import 'partials/sections/contact';
+@import 'partials/sections/footer';
 
-// EFFECTS
-
-@import 'partials/hover';

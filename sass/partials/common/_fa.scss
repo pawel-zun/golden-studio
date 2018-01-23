@@ -1,0 +1,43 @@
+.fa {
+	color: $text-color-dark;
+	border: 3px solid $text-color-dark;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	font-size: 22px;
+	line-height: 34px;
+	margin-right: 10px;
+	&:last-of-type {
+		margin-right: 0;
+	}
+	&:hover {
+  	color: #fff;
+  	cursor: pointer;			
+	}
+}
+
+.fa--dark {
+	color: $text-color-white;
+	background-color: $text-color-dark;
+}
+
+.fa-twitter:hover {
+	background-color: #00aced;
+	border-color: #00aced;
+}
+
+.fa-facebook:hover {
+	background-color: #3b5998;
+	border-color: #3b5998;
+}
+
+.fa-pinterest-p:hover {
+	background-color: #cb2028;
+	border-color: #cb2028;
+}
+
+.fa-google-plus:hover {
+	background-color: #da2713;
+	border-color: #da2713;
+}

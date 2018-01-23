@@ -1,0 +1,46 @@
+.team {
+	background-color: $bg-color-light;
+	.team__name {
+		font-family: $text-font-headline;
+	  color: $text-color-dark;
+	  font-size: 16px;
+	  font-weight: 700;
+	  line-height: 1.2;
+	  text-align: center;
+	  margin-bottom: 5px;
+	}
+}
+
+.team__photo {
+	width: 220px;
+	height: 220px;
+	background-color: #111111;
+	display: block;
+	margin: 0 auto 25px;
+	border-radius: 50%;
+	&--kim {
+		@extend .team__photo;
+		background-image: url('assets/team/001.jpg');		
+		background-size: cover;
+	}
+	&--ric {
+		@extend .team__photo;
+		background-image: url('assets/team/003.jpg');		
+		background-size: cover;		
+	}	
+	&--uku {
+		@extend .team__photo;
+		background-image: url('assets/team/004.jpg');		
+		background-size: cover;
+	}	
+}
+
+.team__social {
+	display: flex;
+	justify-content: center;
+	padding-top: 16px;
+}
+
+.team__desc {
+	margin-top: 50px;
+}

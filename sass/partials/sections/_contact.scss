@@ -1,0 +1,36 @@
+.contact {
+	background-color: $bg-color-dark;
+	background-image: url('assets/map-bg.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	h2 {
+		color: $text-color-white;
+	}
+}
+
+.contact__input {
+	width: 100%;
+	font-size: 14px;
+	font-family: $text-font-regular;
+	color: $text-color-dark;
+	font-weight: 700;
+	border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 30px;
+  &::placeholder {
+  	color: #bbb;
+		font-family: $text-font-headline;
+		text-transform: uppercase;
+  }
+  &:focus {
+  	outline: none;
+  	border-color: $detail-color;
+  }
+}
+
+.contact__textarea {
+	@extend .contact__input;
+	resize: none;
+	height: 241px;
+}

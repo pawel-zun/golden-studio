@@ -1,0 +1,30 @@
+.portfolio {
+	background-color: $bg-color-light;
+}
+
+.portfolio__header {
+	margin-bottom: 30px;
+}
+
+.portfolio__image {
+	margin-top: 50px;
+	width: 290px;
+	height: 300px;
+}
+
+.portfolio__desc {
+	width: 290px;
+	padding: 30px 15px;
+	background-color: $bg-color-white;	
+	.portfolio__desc--title {		
+	  color: $text-color-dark-portfolio;
+		margin-bottom: 5px;
+	}
+
+	.portfolio__desc--subtitle {
+		font-family: $text-font-italics;
+		font-size: 14px;
+	  color: $text-color-light-portfolio;
+	  text-align: center;
+	}
+}
