@@ -41,6 +41,11 @@
 	border: 7px solid #f1f1f1;
 	border-radius: 50%;
 	background-color: $text-color-dark;
+	transition: all 0.5s;
+	&:hover {
+		border-color: $detail-color;
+		cursor: pointer;
+	}
 	&:after {
 		content: "";
     height: 100%;
@@ -94,5 +99,10 @@
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+	align-items: center;
+	transition: all 0.5s;
+	&:hover {
+		cursor: pointer;
+		border-color: #ff9900;
+	}
 }

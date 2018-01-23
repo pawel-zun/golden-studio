@@ -1,4 +1,9 @@
 .services__icon {
 	display: block;
 	margin: 0 auto 25px;
+	transition: all .5s;
+}
+
+.services [class="col"]:hover .services__icon {
+	transform: scale(1.2);
 }

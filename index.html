@@ -15,11 +15,11 @@
 				<img src="assets/Logo-Treehouse.png" alt="">
 				<nav class="header__navigation">
 					<ul class="navigation__list">
-						<li class="list__item"><a href="" alt="" class="list__link">home</a></li>
-						<li class="list__item"><a href="" alt="" class="list__link">services</a></li>
-						<li class="list__item"><a href="" alt="" class="list__link">portfolio</a></li>
-						<li class="list__item"><a href="" alt="" class="list__link">about</a></li>
-						<li class="list__item"><a href="" alt="" class="list__link">contact</a></li>
+						<li class="list__item"><a href="#" alt="" class="list__link">home</a></li>
+						<li class="list__item"><a href="#services" alt="" class="list__link">services</a></li>
+						<li class="list__item"><a href="#portfolio" alt="" class="list__link">portfolio</a></li>
+						<li class="list__item"><a href="#about" alt="" class="list__link">about</a></li>
+						<li class="list__item"><a href="#contact" alt="" class="list__link">contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -33,7 +33,7 @@
 		</div>
 	</header>
 
-	<section class="services">
+	<section id="services" class="services">
 		<div class="container">
 			<header>
 				<h2>services</h2>
@@ -65,7 +65,7 @@
 		</div>
 	</section>
 
-	<section class="portfolio">
+	<section id="portfolio" class="portfolio">
 		<div class="container">
 			<header class="portfolio__header">
 				<h2>our portfolio</h2>
@@ -74,7 +74,12 @@
 			<div class="row">
 
 				<div class="col">
-					<img src="assets/portfolio/Ebony.jpg" alt="" class="portfolio__image">
+					<div class="portfolio__wrapper">
+						<a href="" title="Ebony & Ivory"><img src="assets/portfolio/Ebony.jpg" alt="" class="portfolio__image"></a>
+						<div class="portfolio__details">
+							<p class="details__instance">Proin iaculis purus consequat sem cure digni ssim.</p>
+						</div>
+					</div>
 					<div class="portfolio__desc">
 						<h3 class="portfolio__desc--title">Ebony & Ivory</h3>
 						<p class="portfolio__desc--subtitle">Branding</p>
@@ -82,7 +87,12 @@
 				</div>
 
 				<div class="col">
-					<img src="assets/portfolio/Smart.jpg" alt="" class="portfolio__image">
+					<div class="portfolio__wrapper">
+						<a href="" title="Smart Stationary"><img src="assets/portfolio/Smart.jpg" alt="" class="portfolio__image"></a>
+						<div class="portfolio__details">
+							<p class="details__instance">Proin iaculis purus consequat sem cure digni ssim.</p>
+						</div>
+					</div>
 					<div class="portfolio__desc">
 						<h3 class="portfolio__desc--title">Smart Stationary</h3>
 						<p class="portfolio__desc--subtitle">Print Design</p>
@@ -90,7 +100,12 @@
 				</div>
 
 				<div class="col">
-					<img src="assets/portfolio/Clever.jpg" alt="" class="portfolio__image">
+					<div class="portfolio__wrapper">
+						<a href="" title="Clever Poster"><img src="assets/portfolio/Clever.jpg" alt="" class="portfolio__image"></a>
+						<div class="portfolio__details">
+							<p class="details__instance">Proin iaculis purus consequat sem cure digni ssim.</p>
+						</div>
+					</div>
 					<div class="portfolio__desc">
 						<h3 class="portfolio__desc--title">Clever Poster</h3>
 						<p class="portfolio__desc--subtitle">Print Design</p>
@@ -98,7 +113,12 @@
 				</div>
 
 				<div class="col">
-					<img src="assets/portfolio/Vinyl.jpg" alt="" class="portfolio__image">
+					<div class="portfolio__wrapper">
+						<a href="" title="Vinyl Record"><img src="assets/portfolio/Vinyl.jpg" alt="" class="portfolio__image"></a>
+						<div class="portfolio__details">
+							<p class="details__instance">Proin iaculis purus consequat sem cure digni ssim.</p>
+						</div>
+					</div>
 					<div class="portfolio__desc">
 						<h3 class="portfolio__desc--title">Vinyl Record</h3>
 						<p class="portfolio__desc--subtitle">Product Mock-Up</p>
@@ -106,7 +126,12 @@
 				</div>
 
 				<div class="col">
-					<img src="assets/portfolio/Treehouse.jpg" alt="" class="portfolio__image">
+					<div class="portfolio__wrapper">
+						<a href="" title="Treehouse Template"><img src="assets/portfolio/Treehouse.jpg" alt="" class="portfolio__image"></a>
+						<div class="portfolio__details">
+							<p class="details__instance">Proin iaculis purus consequat sem cure digni ssim.</p>
+						</div>
+					</div>
 					<div class="portfolio__desc">
 						<h3 class="portfolio__desc--title">Treehouse Template</h3>
 						<p class="portfolio__desc--subtitle">Web Design</p>
@@ -114,7 +139,12 @@
 				</div>
 
 				<div class="col">
-					<img src="assets/portfolio/Burned.jpg" alt="" class="portfolio__image">
+					<div class="portfolio__wrapper">
+						<a href="" title="Burned Logo"><img src="assets/portfolio/Burned.jpg" alt="" class="portfolio__image"></a>
+						<div class="portfolio__details">
+							<p class="details__instance">Proin iaculis purus consequat sem cure digni ssim.</p>
+						</div>
+					</div>
 					<div class="portfolio__desc">
 						<h3 class="portfolio__desc--title">Burned Logo</h3>
 						<p class="portfolio__desc--subtitle">Branding</p>
@@ -125,7 +155,7 @@
 		</div>
 	</section>
 
-	<section class="about">
+	<section id="about" class="about">
 		<div class="container">
 			<header>
 				<h2>about us</h2>
@@ -214,7 +244,7 @@
 		</div>
 	</section>
 
-	<section class="team">
+	<section id="team" class="team">
 		<div class="container">
 			<header>
 				<h2>our amazing team</h2>
@@ -223,8 +253,7 @@
 			<div class="row">
 
 				<div class="col">
-					<div class="team__photo--kim">
-					</div>
+					<div class="team__wrapper"><div class="team__photo--kim"></div></div>
 					<p class="team__name">Kimberly Thompson</p>
 					<p class="team__role">Marketer</p>
 					<div class="team__social">
@@ -235,7 +264,7 @@
 				</div>
 
 				<div class="col">
-					<div class="team__photo--ric">
+					<div class="team__wrapper"><div class="team__photo--ric"></div>
 					</div>
 					<p class="team__name">Rico Massimo</p>
 					<p class="team__role">Coder</p>
@@ -247,7 +276,7 @@
 				</div>
 
 				<div class="col">
-					<div class="team__photo--uku">
+					<div class="team__wrapper"><div class="team__photo--uku"></div>
 					</div>
 					<p class="team__name">Uku Mason</p>
 					<p class="team__role">Graphic Designer</p>
@@ -277,7 +306,7 @@
 		</div>
 	</section>
 
-	<section class="contact">
+	<section id="contact" class="contact">
 		<form class="container" action="">
 			<header>
 				<h2>contact us</h2>
