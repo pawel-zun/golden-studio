@@ -11,18 +11,18 @@
 
 	<header class="masthead">
 		<div class="container">
-			<div class="masthead__header">
-				<img src="assets/Logo-Treehouse.png" alt="">
-				<nav class="header__navigation">
-					<ul class="navigation__list">
-						<li class="list__item"><a href="#" alt="" class="list__link">home</a></li>
-						<li class="list__item"><a href="#services" alt="" class="list__link">services</a></li>
-						<li class="list__item"><a href="#portfolio" alt="" class="list__link">portfolio</a></li>
-						<li class="list__item"><a href="#about" alt="" class="list__link">about</a></li>
-						<li class="list__item"><a href="#contact" alt="" class="list__link">contact</a></li>
-					</ul>
-				</nav>
-			</div>
+			<nav class="header__navigation">
+				<img src="assets/Logo-Treehouse.png" alt="Site Logo" title="Welcome to our studio!" class="navigation__logo">
+				<input type="checkbox" id="navigation__burger">
+				<label for="navigation__burger" class="navigation__burger"><i class="fa fa-bars" aria-hidden="true"></i></label>
+				<ul class="navigation__list">
+					<li class="list__item"><a href="#" alt="" class="list__link">home</a></li>
+					<li class="list__item"><a href="#services" alt="" class="list__link">services</a></li>
+					<li class="list__item"><a href="#portfolio" alt="" class="list__link">portfolio</a></li>
+					<li class="list__item"><a href="#about" alt="" class="list__link">about</a></li>
+					<li class="list__item"><a href="#contact" alt="" class="list__link">contact</a></li>
+				</ul>
+			</nav>
 		</div>
 		<div class="container--height">
 			<div class="jumbotron">
@@ -254,7 +254,7 @@
 			</header>
 			<div class="row">
 
-				<div class="col">
+				<div class="col-12 col-lg-4">
 					<div class="team__wrapper"><div class="team__photo--kim"></div></div>
 					<p class="team__name">Kimberly Thompson</p>
 					<p class="team__role">Marketer</p>
@@ -265,7 +265,7 @@
 					</div>
 				</div>
 
-				<div class="col">
+				<div class="col-12 col-lg-4">
 					<div class="team__wrapper"><div class="team__photo--ric"></div>
 					</div>
 					<p class="team__name">Rico Massimo</p>
@@ -277,7 +277,7 @@
 					</div>
 				</div>
 
-				<div class="col">
+				<div class="col-12 col-lg-4">
 					<div class="team__wrapper"><div class="team__photo--uku"></div>
 					</div>
 					<p class="team__name">Uku Mason</p>
@@ -299,12 +299,12 @@
 		</div>
 	</section>
 
-	<section class="logos">
+	<section class="container logos">
 		<div class="row justify-content-center align-items-center no-gutters">
-			<img src="assets/logos/Envato.png" alt="" class="logos__item">
-			<img src="assets/logos/WordPress.png" alt="" class="logos__item">
-			<img src="assets/logos/Tuts.png" alt="" class="logos__item">
-			<img src="assets/logos/Microlancer.png" alt="" class="logos__item">
+			<div class="col-12 col-sm-6 col-lg-auto"><img src="assets/logos/Envato.png" alt="" class="logos__item--right"></div>
+			<div class="col-12 col-sm-6 col-lg-auto"><img src="assets/logos/WordPress.png" alt="" class="logos__item"></div>
+			<div class="col-12 col-sm-6 col-lg-auto"><img src="assets/logos/Tuts.png" alt="" class="logos__item--right"></div>
+			<div class="col-12 col-sm-6 col-lg-auto"><img src="assets/logos/Microlancer.png" alt="" class="logos__item"></div>
 		</div>
 	</section>
 
@@ -315,12 +315,12 @@
 				<p>Proin iaculis purus consequat sem cure.</p>
 			</header>
 			<div class="row">
-				<div class="col">
+				<div class="col-12 col-lg-6">
 					<input type="text" name="name" placeholder="your name*" class="contact__input" required>
 					<input type="email" name="email" placeholder="your e-mail*" class="contact__input" required>
 					<input type="text" name="subject" placeholder="subject" class="contact__input">
 				</div>
-				<div class="col">
+				<div class="col-12 col-lg-6">
 					<textarea name="message" placeholder="your message*" class="contact__textarea" required></textarea>
 				</div>
 			</div>

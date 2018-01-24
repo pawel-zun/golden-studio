@@ -11,7 +11,14 @@
 	}
 }
 
-.team [class="col"]:hover .team__photo {
+.team [class*="col"] {
+	margin-bottom: 50px;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.team [class*="col"]:hover .team__photo {
 	transform: scale(1.2);
 }
 
@@ -54,4 +61,10 @@
 
 .team__desc {
 	margin-top: 50px;
+}
+
+@media (min-width: 992px) {
+	.team [class*="col"] {
+		margin-bottom: 0;
+	}
 }

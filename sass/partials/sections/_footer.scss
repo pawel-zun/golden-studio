@@ -1,11 +1,12 @@
 footer {
-	position: relative;
-	height: 90px;
+	display: flex;
+	flex-direction: column;
+	height: 110px;
 }
 
 .copyrights {
-	position: absolute;
-	top: calc(50% - 7px);
+	text-align: center;
+	margin-top: 10px; 
 	font-size: 14px;
 	font-family: $text-font-headline;
 	color: #555;
@@ -18,3 +19,18 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+
+@media (min-width: 992px) {
+	footer {
+		display: block;
+		position: relative;
+		height: 90px;
+	}
+	.copyrights {
+		text-align: left;
+		margin-top: 0;
+		position: absolute;
+		top: calc(50% - 7px);
+	}
+}
+

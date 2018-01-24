@@ -1,7 +1,29 @@
 .logos {
-	padding: 60px 0;
+	padding: 60px 0 40px;
 }
 
 .logos__item {
-	margin: 0 20px;
+	display: block;
+	margin: 0 auto 20px;
+	&--right {
+		@extend .logos__item;
+	}
+}
+
+@media (min-width: 576px) {
+	.logos__item {
+		margin: 0 20px 20px;
+		&--right {
+			float: right;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.logos {
+		padding: 60px 0;
+	}
+  .logos__item {
+    margin: 0 20px;
+  }
 }

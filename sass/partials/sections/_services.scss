@@ -1,9 +1,30 @@
+.services [class*="col"] {
+	margin-bottom: 50px;
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+}
+
+.services [class*="col"] p {
+	width: 60%;
+	margin: 0 auto;
+}
+
 .services__icon {
 	display: block;
 	margin: 0 auto 25px;
 	transition: all .5s;
 }
 
-.services [class="col"]:hover .services__icon {
+.services [class*="col"]:hover .services__icon {
 	transform: scale(1.2);
+}
+
+@media (min-width: 768px) {
+	.services [class*="col"] {
+		margin-bottom: 0;
+	}
+	.services [class*="col"] p {
+		width: 100%;
+	}
 }

@@ -13,3 +13,21 @@ button {
 		cursor: pointer;
 	}
 }
+
+/*
+button {
+  border-radius: 3px;
+  border: 0;
+  background-color: $detail-color;
+  width: 240px;
+  height: 65px;
+  font-size: 18px;
+	color: $text-color-white;
+	font-family: $text-font-headline;
+	font-weight: 700;
+	text-transform: uppercase;
+	&:before {
+		cursor: pointer;
+	}
+}
+*/
